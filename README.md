@@ -56,7 +56,7 @@ sudo systemctl enable httpd
 4. Deploy the Static Website
 
 Create an index.html file:
-echo "<h1>Welcome to My Static Website!</h1>" | sudo tee /var/www/html/index.html
+echo "\<h1>Welcome to My Static Website!\</h1>" | sudo tee /var/www/html/index.html
 
 Verify by accessing the public IP in a browser:
 http://<public-ip>
